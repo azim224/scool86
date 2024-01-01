@@ -33,3 +33,9 @@ body {
 .garland_4 {
   background-position: 0 -108px
 }
+.img {
+position: absolute;
+z-index: 1;
+top: 0px;
+left: 0px;
+}
