@@ -40,3 +40,11 @@ top: 0px;
 left: 0px;
 }
 background: linear-gradient(to bottom, #89ffde 0%,#8f4bff 100%) no-repeat fixed;
+.element {
+  height: 100vh;
+  background-color: #f1f1f1;
+  background-image: url("https://wallbox.ru/resize/1680x1050/wallpapers/main/201303/7d20a57295d86ac.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
