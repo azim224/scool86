@@ -7,7 +7,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  url('http://imapo.ru/img/christmas.png');
+  background-image: url('http://imapo.ru/img/christmas.png');
   height: 36px;
   width: 100%;
   overflow: hidden;
