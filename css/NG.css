@@ -48,3 +48,9 @@ background: linear-gradient(to bottom, #89ffde 0%,#8f4bff 100%) no-repeat fixed;
   background-size: cover;
   background-position: center;
 }
+.gdz li ul{
+display: none;
+}
+.gdz li:hover >ul{
+  display:block;
+}
