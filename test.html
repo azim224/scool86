@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://cheery-dolphin-0c8f68.netlify.app/css/NG.css">
+    <link rel="stylesheet" href="https://cheery-dolphin-0c8f68.netlify.app/css/test.css">
     <meta charset="UTF-8">
     <title>Document</title>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -20,10 +21,20 @@
 </head>
      <div class="element"></div>
 <body>
-      <video controls="controls">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2h4TVjAbmnk?si=YQqSDWwUR6yrgq7G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        Your browser does not support the video tag.
-      </video>
+    <header>
+        <nav class="gdz">
+            <ul>
+                <li><a href="#">ПРВПРВр </a></li>
+                <li><a href="#">ПРВПРВр </a></li>
+                <li><a href="#">ПРВПРВр </a></li>
+                <li><a href="#">ПРВПРВр </a></li>
+                <li><a href="#">ПРВПРВр </a></li>
+                <li><a href="#">ПРВПРВр </a></li>
+            
+                </ul>
+        </nav>
+    </header>
+
     
     
     <h1>Привет</h1>
@@ -34,35 +45,6 @@
         $(document).ready(function(){
             $(document).snowfall({image : src="https://cheery-dolphin-0c8f68.netlify.app/js/img/snow5.png", minSize: 10, maxSize:20});
         });
-    </script>
-<div id="garland" class="garland_4">
-<div id="nums_1">1</div>
-</div>
- 
-<script>
-function garland() {
-nums = document.getElementById('nums_1').innerHTML
-if (nums == 1) {
-document.getElementById('garland').className = 'garland_1';
-document.getElementById('nums_1').innerHTML = '2'
-}
-if (nums == 2) {
-document.getElementById('garland').className = 'garland_2';
-document.getElementById('nums_1').innerHTML = '3'
-}
-if (nums == 3) {
-document.getElementById('garland').className = 'garland_3';
-document.getElementById('nums_1').innerHTML = '4'
-}
-if (nums == 4) {
-document.getElementById('garland').className = 'garland_4';
-document.getElementById('nums_1').innerHTML = '1'
-}
-};
- 
-setInterval(function() {
-garland();
-}, 600);
-</script>
+
 </body>
 </html>
