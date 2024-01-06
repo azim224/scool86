@@ -8,6 +8,9 @@
   
 }
 .gdz >ul li a{
+  display: block;
   bacground: 0000ff; 
   padding: 15px 30px  15px 40px;
+  color: #ffffff;
+  text-decaration: none;
 }
