@@ -1,6 +1,13 @@
-.gdz li ul{
-display: none;
+.header{
+  margin-top: 200px;
+  
 }
-.gdz li:hover >ul{
-  display:block;
+.gdz > ul{
+  display: flex;
+  justify-content: center;
+  
+}
+.gdz >ul li a{
+  bacground: 0000ff; 
+  padding: 15px 30px  15px 40px;
 }
