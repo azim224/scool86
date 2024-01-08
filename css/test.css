@@ -8,28 +8,32 @@ body {
        
    }
 .header{
-  margin-top: 200px;
+    margin-top: 200px;
+    font-family: 'Cuprum', "Arial", "Helvetical", sans-serif;
   
 }
 .gdz *{
-  margin: 0;
-  padding: 0;
+    margin: 0; 
+    padding: 0;
 }
 .gdz ul,
 .gdz ol{
-  list-style: none;
+    list-style: none;
 }
 .gdz > ul{
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+  
+    
+  
   
 }
 .gdz >ul li a{
-  display: block;
-  bacground: 0000ff; 
-  padding: 15px 30px  15px 40px;
-  font-size: 14px;
-  color: #ffffff;
-  text-decaration: none;
-  text-transform: uppercase;
+    display: block;
+    bacground: 0000ff; 
+    padding: 15px 30px  15px 40px;
+    font-size: 14px;
+    color: #ffffff;
+    text-decaration: none;
+    text-transform: uppercase;
 }
