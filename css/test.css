@@ -7,7 +7,7 @@ body {
        background-position: center;
        
    }
-.header{
+.header {
     margin-top: 200px;
     font-family: 'Cuprum', "Arial", "Helvetical", sans-serif;
   
@@ -20,7 +20,7 @@ body {
 .gdz ol{
     list-style: none;
 }
-.gdz > ul{
+.gdz > ul {
     display: flex;
     justify-content: center;
   
@@ -28,7 +28,7 @@ body {
   
   
 }
-.gdz >ul li a{
+.gdz > ul li a {
     display: block;
     bacground: 0000ff; 
     padding: 15px 30px  15px 40px;
