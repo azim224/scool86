@@ -2,9 +2,7 @@ body {
   background: url("https://wallbox.ru/resize/1680x1050/wallpapers/main/201303/7d20a57295d86ac.jpg") no-repeat center center fixed;
   background-size: cover;
 }
-h6 {
-  color: #FFFFFF;
-}
+h6 { color: white;}
 
 #garland {
   position: absolute;
