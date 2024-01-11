@@ -2,10 +2,7 @@ body {
   background: url("https://wallbox.ru/resize/1680x1050/wallpapers/main/201303/7d20a57295d86ac.jpg") no-repeat center center fixed;
   background-size: cover;
 }
-body {
-  background: #000;
-  margin: 0;
-}
+
 
 #garland {
   position: absolute;
