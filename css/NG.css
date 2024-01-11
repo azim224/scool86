@@ -42,20 +42,7 @@ top: 0px;
 left: 0px;
 }
 background: linear-gradient(to bottom, #89ffde 0%,#8f4bff 100%) no-repeat fixed;
-.element {
-  height: 100vh;
-  background-color: #f1f1f1;
-  background-image: url("https://wallbox.ru/resize/1680x1050/wallpapers/main/201303/7d20a57295d86ac.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.gdz li ul{
-display: none;
-}
-.gdz li:hover >ul{
-  display:block;
-}
+
 
 
 
@@ -83,11 +70,6 @@ display: none;
   display: block;
 }
 
-/* Изменение цвета выпадающих ссылок при наведении курсора */
-.dropdown-content a:hover {background-color: #ddd;}
-
 /* Показать выпадающее меню при наведении курсора */
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
