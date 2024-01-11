@@ -46,6 +46,15 @@ background: linear-gradient(to bottom, #89ffde 0%,#8f4bff 100%) no-repeat fixed;
 
 
 
+/* Кнопка выпадающего списка */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
 /* Контейнер <div> - необходим для размещения выпадающего содержимого */
 .dropdown {
   position: relative;
@@ -70,6 +79,12 @@ background: linear-gradient(to bottom, #89ffde 0%,#8f4bff 100%) no-repeat fixed;
   display: block;
 }
 
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: #ddd;}
+
 /* Показать выпадающее меню при наведении курсора */
 .dropdown:hover .dropdown-content {display: block;}
+
+/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
