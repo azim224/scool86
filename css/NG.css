@@ -45,6 +45,7 @@ background: linear-gradient(to bottom, #89ffde 0%,#8f4bff 100%) no-repeat fixed;
 
 .menu {
   display: flex;
+  text-align: left;
 }
 .menu li{
   width: 200px;
@@ -75,7 +76,4 @@ background: linear-gradient(to bottom, #89ffde 0%,#8f4bff 100%) no-repeat fixed;
 .menu li:hover ul{
   display: block;
   
-}
-.menu {
-  text-align: left;
 }
