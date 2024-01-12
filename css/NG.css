@@ -1,3 +1,36 @@
+.menu {
+  display: flex;
+  text-align: left;
+}
+.menu li{
+  width: 200px;
+  list-style: none;
+  background: #383c54;
+  position: relative;
+}
+.menu a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px:
+  transition: all .5s;
+}
+.menu a:hover{
+  background: #808291;
+}
+.menu ul{
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  padding: 0;
+}
+.menu li:hover ul{
+  display: block;
+}
 body {
   background: url("https://wallbox.ru/resize/1680x1050/wallpapers/main/201303/7d20a57295d86ac.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -43,37 +76,4 @@ left: 0px;
 }
 background: linear-gradient(to bottom, #89ffde 0%,#8f4bff 100%) no-repeat fixed;
 
-.menu {
-  display: flex;
-  text-align: left;
-}
-.menu li{
-  width: 200px;
-  list-style: none;
-  background: #383c54;
-  position: relative;
-}
-.menu a{
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  padding: 0 10px;
-  height: 40px;
-  line-height: 40px:
-  transition: all .5s;
-}
-.menu a:hover{
-  background: #808291;
-}
-.menu ul{
-  position: absolute;
-  left: 0;
-  top: 100%;
-  display: none;
-  padding: 0;
-}
-.menu li:hover ul{
-  display: block;
-  
-}
+
