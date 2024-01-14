@@ -39,22 +39,7 @@
 }
 
 
-.menu ul ul{
-  display: none;
-  position: absolute;
-  top: 0;
 
-}
-.menu li:hover > ul ul{
-  display: block;
-}
-.menu ul{
-  position: absolute;
-  left: 0;
-  top: 100%;
-  display: none;
-  padding: 0;
-}
 body {
   background: url("https://wallbox.ru/resize/1680x1050/wallpapers/main/201303/7d20a57295d86ac.jpg") no-repeat center center fixed;
   background-size: cover;
