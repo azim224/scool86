@@ -38,17 +38,12 @@
   left: 100%;
 }
 
-.menu ul ul {
-  display: none;
-  position: absolute;
-  top: 0;
 
-}
 .menu ul ul{
   display: none;
   position: absolute;
   top: 0;
-  left: 100%;
+
 }
 .menu li li:hover > ul ul ul{
   display: block;
