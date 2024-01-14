@@ -50,7 +50,7 @@
   top: 0;
   left: 100%;
 }
-.menu li:hover > ul ul ul{
+.menu li li:hover > ul ul ul{
   display: block;
 
 body {
