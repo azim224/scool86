@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://cheery-dolphin-0c8f68.netlify.app/css/NG.css">
+
+    
+
+   
+
+
+</head>
+<center>
+<body>
+
+
+
+
+        <script src='https://github.com/azim335/scool86/tree/main/js/snowfall.js'></script>
+    <script src="js/snowfall.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(document).snowfall({image : src="https://cheery-dolphin-0c8f68.netlify.app/js/img/snow3.png", minSize: 10, maxSize:20, 
+flakeCount:27, maxSpeed:0.3});
+        });
+    </script>
+    <div id="garland" class="garland_4">
+<div id="nums_1">1</div>
+</div>
+ 
+<script>
+function garland() {
+nums = document.getElementById('nums_1').innerHTML
+if (nums == 1) {
+document.getElementById('garland').className = 'garland_1';
+document.getElementById('nums_1').innerHTML = '2'
+}
+if (nums == 2) {
+document.getElementById('garland').className = 'garland_2';
+document.getElementById('nums_1').innerHTML = '3'
+}
+if (nums == 3) {
+document.getElementById('garland').className = 'garland_3';
+document.getElementById('nums_1').innerHTML = '4'
+}
+if (nums == 4) {
+document.getElementById('garland').className = 'garland_4';
+document.getElementById('nums_1').innerHTML = '1'
+}
+};
+ 
+setInterval(function() {
+garland();
+}, 600);
+</script>
+</br>
+</br>
+</br>
+<div>
+</div>
+</br>
+</br>
+</br>
+<div>
+
+</div>
+</body>
+</center>
