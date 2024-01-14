@@ -31,7 +31,7 @@
 .menu li:hover > ul{
   display: block;
 }
-.menu ul ul{
+.menu ul > ul{
   display: none;
   position: absolute;
   top: 0;
