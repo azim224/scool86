@@ -42,8 +42,12 @@
   display: none;
   position: absolute;
   top: 0;
-  left: 100%;
+
 }
+.menu li:hover > ul ul ul{
+  display: block;
+}
+
 body {
   background: url("https://wallbox.ru/resize/1680x1050/wallpapers/main/201303/7d20a57295d86ac.jpg") no-repeat center center fixed;
   background-size: cover;
