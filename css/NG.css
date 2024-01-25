@@ -1,6 +1,7 @@
 .container {
+  
   background-image: url('https://img.gta5-mods.com/q95/images/san-andreas-intro-video/36ab23-gta_mod_sa_intro_promo.jpg');
-  background-size: cover; /* размер одного повторяющегося изображения */
+  background-size: 100%; /* размер одного повторяющегося изображения */
 }
 .menu {
   display: flex;
