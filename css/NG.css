@@ -1,7 +1,8 @@
-.container {
-  
-  background-image: url("https://cdn.discordapp.com/attachments/1199374849160794194/1199925834664910918/34448.jpg?ex=65c45104&is=65b1dc04&hm=72ee5fd117ec3df91f495f48d792408c272fab47e8e11f0ef09ebd1fc5e30b5b&");
-  background-size: cover; /* размер одного повторяющегося изображения */
+.body{
+  background-image: url("https://wallbox.ru/resize/1680x1050/wallpapers/main/201303/7d20a57295d86ac.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .menu {
   display: flex;
