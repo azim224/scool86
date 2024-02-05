@@ -6,29 +6,37 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="https://cheery-dolphin-0c8f68.netlify.app/css/NG.css">
-    <style>
-body {
-    -webkit-animation: colorchange 10s infinite; 
-    animation: colorchange 10s infinite;
-}
-@-webkit-keyframes colorchange {
-     0%  {background: #33FFF3;}
-    25%  {background: #78281F;}
-    50%  {background: #117A65;}
-    75%  {background: #DC7633;}
-    100% {background: #9B59B6;}
-}
-@keyframes colorchange {
-     0%  {background: #33FFF3;}
-    25%  {background: #78281F;}
-    50%  {background: #117A65;}
-    75%  {background: #DC7633;}
-    100% {background: #9B59B6;}
-}   
-</style>
 </head>
 
 <body>
+    <body>
+    <div class="header"><p>Меню</p></div>
+</body>
+<style>
+    .header{
+        width: 100%;
+        height: 80px;
+        transition-duration: 1s;
+        z-index: 2;
+        position: fixed;
+        background: rgba(0, 0, 0, 0);
+    }
+    body{
+        min-height: 2000px;
+    }
+</style>
+<script>
+    let header = document.querySelector(".header")
+    window.onscroll = function(){
+        
+if(window.scrollY > 100){
+    header.style.background = "#000"
+}
+else{
+    header.style.background = "rgba(0, 0, 0, 0)" 
+}
+    }
+</script>
         <script src='https://github.com/azim335/scool86/tree/main/js/snowfall.js'></script>
     <script src="js/snowfall.js"></script>
     <script type="text/javascript">
