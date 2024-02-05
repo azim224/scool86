@@ -8,19 +8,30 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.6.2/dist/cerulean/bootstrap.min.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><p style="color:#ffffff">Навбар</p></font></font></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Переключить навигацию">
-      <span class="navbar-toggler-icon"></span>
-    </button>
- 
-<a class="navbar-brand" href="https://cheery-dolphin-0c8f68.netlify.app/russian.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><p style="color:#ffffff"><h6>Русский</h6></p></font></font></a>
-<a class="navbar-brand" href="https://cheery-dolphin-0c8f68.netlify.app/matematica.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><p style="color:#ffffff"><h6>Математика</h6></p></font></font></a>
-<a class="navbar-brand" href="https://cheery-dolphin-0c8f68.netlify.app/biologia.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><p style="color:#ffffff"><h6>Беология</h6></p></font></font></a>  
-<a class="navbar-brand" href="https://cheery-dolphin-0c8f68.netlify.app/rodnoi.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><p style="color:#ffffff"><h6>Родной язык</h6></p></font></font></a>
-    
+<form action="action_page.php">
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
 
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <hr>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
 </nav>
         <script src='https://github.com/azim335/scool86/tree/main/js/snowfall.js'></script>
     <script src="js/snowfall.js"></script>
