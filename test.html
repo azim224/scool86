@@ -7,14 +7,25 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="https://cheery-dolphin-0c8f68.netlify.app/css/NG.css">
     <style>
-         body {
-             background-image: url("https://wallbox.ru/resize/1680x1050/wallpapers/main/201303/7d20a57295d86ac.jpg");
-             background-repeat: no-repeat;
-             background-size: cover;
-             background-position: center;
-       
-   }
-  </style>
+body {
+    -webkit-animation: colorchange 60s infinite; 
+    animation: colorchange 5s infinite;
+}
+@-webkit-keyframes colorchange {
+     0%  {background: #33FFF3;}
+    25%  {background: #78281F;}
+    50%  {background: #117A65;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}
+@keyframes colorchange {
+     0%  {background: #33FFF3;}
+    25%  {background: #78281F;}
+    50%  {background: #117A65;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}   
+</style>
 </head>
 
 <body>
